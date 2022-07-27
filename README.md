@@ -8,3 +8,5 @@ make build
 make xbuild
 ## running simulation and the demo
 make run
+## cleaning the generated files dirs
+make clean

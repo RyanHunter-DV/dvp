@@ -26,7 +26,7 @@ dvpUser.o: dvpUser.cpp dvpBuiltIns.h
 ##	g++ -fpermissive -fPIC -c -I ${LIBPATH} vpi_user.cpp -o vpi_user.o
 
 worklib := ncvlog_lib
-clear:
+clean:
 	rm -rf $(worklib); rm -rf *.o; rm -rf libvpi.so;rm -rf *.log
 create:
 	mkdir $(worklib)
